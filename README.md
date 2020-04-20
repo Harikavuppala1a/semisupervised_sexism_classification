@@ -23,6 +23,7 @@ Configuration for traditional ML methods
 Configuration file for proposed semi-supervised methods and deep learning methods
 10. gen_batch_keras.py, neuralApproaches.py, sent_enc_embed.py, word_embed.py -
 Reproduced from [1]
+
 References
 1. Parikh, P., Abburi, H., Badjatiya, P., Krishnan, R., Chhaya, N., Gupta, M., Varma,
 V.: Multi-label categorization of accounts of sexism using a neural framework.
