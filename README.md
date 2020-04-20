@@ -1,7 +1,8 @@
 # semisupervised_sexism_classification
 
-As we are making use of the best-performing model from [1] in our semi-supervised
-methods, we use parts of the code from that paper
+As we leverage the best-performing model from [1] in the proposed semi-supervised
+methods, we use parts of the code associated with [1].
+
 1. generating_augment_data.py
 Generates augmented data for various proposed methods
 2. main.py
@@ -21,10 +22,8 @@ Consists of various traditional machine learning methods
 Configuration for traditional ML methods
 9. Config_deep_learning.txt
 Configuration file for proposed semi-supervised methods and deep learning methods
-10. gen_batch_keras.py, neuralApproaches.py, sent_enc_embed.py, word_embed.py -
-Reproduced from [1]
+
+- gen_batch_keras.py, neuralApproaches.py, sent_enc_embed.py, word_embed.py reproduced from [1]
 
 References
-1. Parikh, P., Abburi, H., Badjatiya, P., Krishnan, R., Chhaya, N., Gupta, M., Varma,
-V.: Multi-label categorization of accounts of sexism using a neural framework.
-arXiv preprint, arXiv:1910.04602 (2019).
+1. P. Parikh, H. Abburi, P. Badjatiya, R. Krishnan, N. Chhaya, M. Gupta, and V. Varma, “Multi-label categorization of accounts of sexism using a neural framework,” in Proceedings of EMNLP-IJCNLP, 2019, pp. 1642–1652.
