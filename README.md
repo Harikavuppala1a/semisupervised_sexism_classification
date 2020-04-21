@@ -3,7 +3,7 @@
 As we leverage the best-performing model from [1] in the proposed semi-supervised
 methods, we use parts of the code associated with [1].
 
-1. generating_augment_data.py: It generates augmented data for various proposed methods
+1. gen_augment_data.py: It generates augmented data for various proposed methods
 2. main.py: It is used to run all the deep learning based methods including the proposed
 approach and baselines after generating the augmented data
 3. arranging.py: It used to save the glove and bert features corresponding to the augmented data
