@@ -793,8 +793,8 @@ def prep_unlab(iter, data_dict, conf_dict_com, conf_dict_list, post_vecs):
                                                                 data_dict['val_en_ind'] = data_dict['test_st_ind'] = data_dict['val_en_ind'] + len(new_data)
                                                                 data_dict['test_en_ind'] = data_dict['testunlab_st_ind'] = data_dict['test_en_ind'] + len(new_data)
                                                                 data_dict['testunlab_en_ind'] = len(data_dict['text'])   
-                                                                data_dict_filename = ("%s%s_%d.pickle" % (conf_dict_com["save_folder_name"], 'raw_data',iter+1))
-                                                                index_filename = ("%s%s_%f_%f_%d.txt" % (conf_dict_com["save_folder_name"], 'index', conf_dict_com["min_num_pred_labs"],conf_dict_com["confidence_thr"],iter+1))
+                                                                data_dict_filename = ("%s%s%s_%d.pickle" % (conf_dict_com["save_folder_name"],conf_dict_com['st_variant'], 'raw_data',iter+1))
+                                                                index_filename = ("%s%s%s_%f_%f_%d.txt" % (conf_dict_com["save_folder_name"], conf_dict_com['st_variant'],'index', conf_dict_com["min_num_pred_labs"],conf_dict_com["confidence_thr"],iter+1))
                                                                 print (conf_dict_com['st_variant'])
                                                                 with open(index_filename, 'w') as f_in:
                                                                 	for i in range(len(data_dict['text'])):
