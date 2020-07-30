@@ -17,10 +17,10 @@ retaining_ratio = 0.9
 st_variant = "intersection_diversity.label_support.weakest"
 
 augment_data_filename = "saved/raw_data_intersection_diversity.label_support.weakest_0.75_0.9_3.pickle"
-original_elmo_folderpath = "../../../database/harika/saved/word_vecs~elmo/False/"
+original_elmo_folderpath = "../database/saved/word_vecs~elmo/False/"
 augment_data_elmo_folderpath = "saved/word_vecs~elmo/False/"
 augment_index_filename ="saved/index_intersection_diversity.label_support.weakest_0.75_0.9_3.txt"
-original_bert_file = "../../../database/harika/saved/sent_enc_feat~bert_pre~True.h5"
+original_bert_file = "../database/saved/sent_enc_feat~bert_pre~True.h5"
 augment_data_bert_filename = "saved/sent_enc_feat~bert_pre~True.h5"
 
 
