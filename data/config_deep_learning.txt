@@ -35,8 +35,8 @@ save_sent_enc_feats = True
 use_saved_word_feats = True
 save_word_feats = True
 
-poss_sent_enc_feats_emb_dict = {'use': 512, 'infersent': 4096, 'bert': 1024, 'bert_pre': 768,'trainable_bert' : 768}
-poss_word_feats_emb_dict = {'glove': 300, 'ling': 33, 'elmo': 3072, 'fasttext': 300}
+poss_sent_enc_feats_emb_dict = {'bert': 1024, 'bert_pre': 768}
+poss_word_feats_emb_dict = {'glove': 300, 'ling': 33, 'elmo': 3072}
 
 dropO1 = 0.25
 dropO2 = 0.25
