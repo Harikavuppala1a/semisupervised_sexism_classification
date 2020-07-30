@@ -8,7 +8,7 @@ Sexism, a pervasive form of oppression, causes profound suffering through variou
 Inorder to generate the augment data using any of the proposed methods, run gen_augment_data.py. Once the augmented data is generated run main.py to generate the results..
 To generate results for all the deep learning baselines and proposed methods run main.py.
 To generate results for traditional machine leanring baselines run TraditionalML_LP.py.
-For all these py files you need to pass the config files mentioned in the data folder as an argument. For ex: python gen_augment_data.py data/config_deep_learning.txt.
+For all these py files, pass the config files mentioned in the data folder as an argument. For ex: python gen_augment_data.py data/config_deep_learning.txt.
 
 If you use this code for any research, please cite:
 
